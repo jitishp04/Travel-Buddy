@@ -1,8 +1,10 @@
-# Backend and Frontend Template
+## Teaser
 
-Latest version: https://git.chalmers.se/courses/dit342/2023/group-09-web
+![Teaser](./images/teaser.png)
 
-This template refers to itself as `group-00-web`. In your project, use your group number in place of `00`.
+## Entity-Relationship (ER) Diagram
+
+![ER Diagram](./images/ERdiagram_TravelBuddy.jpg)
 
 ## Project Structure
 
@@ -34,16 +36,12 @@ You can also use alternative tools if you know how to configure them (e.g., Fire
   - Checkout the [Backend-Frontend](https://git.chalmers.se/courses/dit342/group-00-web) template `git clone git@git.chalmers.se:courses/dit342/2023/group-09-web.git`
 - [Server Requirements](./server/README.md#Requirements)
 - [Client Requirements](./client/README.md#Requirements)
+- Google and unsplash API keys
 
 ## Getting started
 
 ```bash
-# Clone repository
-git clone git@git.chalmers.se:courses/dit342/2023/group-09-web.git
-
-# Change into the directory
-cd group-00-web
-
+# Clone repo then:
 # Setup backend
 cd server && npm install
 npm run dev
@@ -86,11 +84,3 @@ The travel companion is an app that helps you plan, track your travels, and crea
 - Left Sidebar Menu containing entries for Journal, Locations, Activities, Checklists, preferences etc
 - Right Sidebar Menu for additional details and options for list and note entries; pops up when entry is selected for creation/editing
 - Pages for Journals, Checklists, Locations and an overview of all entries
-
-### Entity-Relationship (ER) Diagram
-
-![ER Diagram](./images/ERdiagram_TravelBuddy.jpg)
-
-## Teaser (MS3)
-
-![Teaser](./images/teaser.png)
